@@ -24,10 +24,10 @@
         <header class="border-b border-slate-200 bg-white">
             <div class="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-4 lg:flex-row lg:items-center lg:justify-between">
                 <div>
-                    <a href="{{ route('home') }}" class="text-lg font-semibold tracking-tight text-slate-950">
-                        {{ config('app.name') }}
+                    <a href="{{ route('home') }}" class="inline-flex items-center">
+                        <x-application-logo class="text-slate-950" />
                     </a>
-                    <p class="text-xs text-slate-500">
+                    <p class="mt-2 text-xs text-slate-500">
                         Digital Service Access and Request Tracking System
                     </p>
                 </div>

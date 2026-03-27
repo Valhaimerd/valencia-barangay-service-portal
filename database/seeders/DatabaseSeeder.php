@@ -13,6 +13,7 @@ class DatabaseSeeder extends Seeder
             ServiceTypeSeeder::class,
             SuperAdminSeeder::class,
             OfficialAccountSeeder::class,
+            WorkingEnvironmentSeeder::class,
         ]);
     }
 }
